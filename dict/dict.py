@@ -31,4 +31,3 @@ print dict(a=1,b=2,c=3)
 print {c:c*4 for c in 'JoinQuant'} #默认是集合
 print {c:c*4 for c in ['JoinQuant']}
 print {c.lower():c*4+'!' for c in 'JoinQuant'}
-
